@@ -8,12 +8,23 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    .background-image{
+    .bg-piano{
       position: absolute;
       width: 100%;
-      height: 870px;
+      height: 100%;
       background-image: url(../images/background-image-section2.svg);
-      z-index: 2;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -10;
+    }
+    .bg-block{
+      background-image: linear-gradient(180deg, rgb(41, 41, 41), white);
+      position: absolute;
+      top: 45vh;
+      width: 100%;
+      height: 65%;
+      background-repeat: no-repeat;
+      z-index: -5;
     }
     .header{
       margin: 2rem;
@@ -44,6 +55,7 @@
     }
   
     .content {
+      color: white;
       margin: 0 2rem;
       position: absolute;
       top:45vh;
@@ -51,11 +63,13 @@
 
       .stars-block {}
 
-      h2,
-      p,
-      li {}
 
-      .list-sect2 {}
+      .list-sect2 {
+        display: flex;
+        li{
+          justify-content: space-around;
+        }
+      }
 
       .bttn-shop {
         width: 70vw;
