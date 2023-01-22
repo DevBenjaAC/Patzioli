@@ -1,14 +1,56 @@
 .second-section {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 0;
 }
 .second-section .main-ctn {
-  width: 80vw;
-  height: auto;
-  align-content: flex-start;
+  width: 100%;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
-.second-section .content .bttn.shop {
+.second-section .main-ctn .background-image {
+  position: absolute;
+  width: 100%;
+  height: 870px;
+  background-image: url(../images/background-image-section2.svg);
+  z-index: 2;
+}
+.second-section .main-ctn .header {
+  margin: 2rem;
+  box-sizing: content-box;
+  position: absolute;
+  top: 0;
+}
+.second-section .main-ctn .images {
+  width: 100%;
+  height: auto;
+  margin: 0 4rem;
+  position: absolute;
+  top: 15vh;
+}
+.second-section .main-ctn .images .piano {
+  position: absolute;
+  z-index: 10;
+}
+.second-section .main-ctn .images .shape-back {
+  position: absolute;
+  z-index: 0;
+}
+.second-section .main-ctn .images .shape-front {
+  position: absolute;
+  z-index: 5;
+}
+.second-section .main-ctn .content {
+  margin: 0 2rem;
+  position: absolute;
+  top: 45vh;
+  align-items: center;
+}
+.second-section .main-ctn .content .bttn-shop {
+  width: 70vw;
+  height: 2rem;
   border-radius: 0.5rem;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
