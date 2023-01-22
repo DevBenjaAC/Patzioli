@@ -31,8 +31,8 @@
 }
 .main-ctn .bg-piano {
   position: absolute;
-  width: 120%;
-  height: 45%;
+  width: 100%;
+  height: 40%;
   background-image: url(../images/background-image-section2.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -50,29 +50,37 @@
 .main-ctn .header {
   height: 15vh;
   width: 80vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
   position: absolute;
   top: 0;
 }
 .main-ctn .images-ctn {
   width: 100%;
-  margin-left: 10vh;
-  margin-right: 30vh;
+  margin-left: 7vh;
+  margin-right: 20vh;
   position: relative;
   top: 20vh;
 }
 .main-ctn .images-ctn .piano {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
 }
 .main-ctn .images-ctn .shape-back {
   position: absolute;
-  z-index: 0;
+  z-index: 2;
+  opacity: 0.8;
+  left: 15vw;
 }
 .main-ctn .images-ctn .shape-front {
   position: absolute;
   z-index: 1;
+  opacity: 0.8;
+}
+.main-ctn .images-ctn .img-group {
+  position: absolute;
+  z-index: 4;
+  left: 1rem;
 }
 .main-ctn .txt-ctn {
   color: white;
@@ -109,7 +117,7 @@
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   width: 70vw;
-  height: 2rem;
+  height: 2.5rem;
   border-radius: 0.5rem;
   background-color: black;
   color: white;
