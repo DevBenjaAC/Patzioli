@@ -10,7 +10,6 @@ body {
 .fourth-section .container {
   width: 100%;
   height: 870px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -37,7 +36,6 @@ body {
   margin: 0 10px;
 }
 .fourth-section .center {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +47,6 @@ body {
 }
 .fourth-section .form .form-input {
   margin: 20px 0;
-  border: 1px solid white;
   width: 370px;
   height: 36px;
   border-radius: 5px;
