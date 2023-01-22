@@ -1,11 +1,12 @@
 //  version mobile 
-.ctn {
-    background-color: aqua;
-}
+$colorbtn: black;
 
-body {
-    background-color: aquamarine;
-}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
 
 // version desktop 
 @media (min-width: 426px) {
