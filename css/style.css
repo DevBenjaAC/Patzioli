@@ -1,13 +1,17 @@
+// version mobile 
 .ctn {
-  background-color: aqua;
+    background-color: aqua;
 }
 
 body {
-  background-color: aquamarine;
+    background-color: aquamarine;
 }
 
+// version desktop 
 @media (min-width: 426px) {
-  body {
-    background-color: red;
-  }
+    body {
+        background-color: red;
+    }
+}
+
 }/*# sourceMappingURL=style.css.map */
