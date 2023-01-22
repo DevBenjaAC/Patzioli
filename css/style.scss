@@ -19,6 +19,7 @@ body {
         height: 870px;
         display: flex;
         flex-direction: column;
+        background: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6F6F6F 98.63%);
 
     }
 
@@ -29,8 +30,8 @@ body {
         background-image: url(../images/darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 0.2;
-        z-index: -1;
+        opacity: 0.1;
+        z-index: 2;
     }
 
     .title {
@@ -89,45 +90,79 @@ body {
 
 // final de cuarta section 
 .five-section {
-    height: 320px;
+    height: 600px;
     margin-top: 0;
     background: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
 
     .title-flags {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    h3 {
         text-align: center;
         font-size: 32px;
+        font-weight: bold;
     }
 
     .ctn-flag {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         .flag {
             margin: 1rem;
             border-top-left-radius: 50px;
             border-bottom-left-radius: 50px;
-            border-top-right-radius: 10px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
             display: flex;
             flex-direction: row;
             align-items: center;
             align-content: flex-start;
-
-            width: 288px;
+            width: 290px;
             height: 103px;
             background-color: black;
             color: white;
 
-            .circle-flag {
-                margin: 0 15px 0 5px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                border: 2px solid white;
-                border-radius: 50%;
-                background: rgba(255, 255, 255, 0.5);
-                width: 88px;
-                height: 88px;
-            }
+        }
+
+        .title-white {
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        .circle-flag {
+            margin: 0 15px 0 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid white;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            width: 88px;
+            height: 88px;
+        }
+
+        .flag-inverted {
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: end;
+            width: 290px;
+            height: 103px;
+            background-color: black;
+            color: white;
+
+        }
+
+        .inverted {
+            margin: 0 5px 0 15px;
         }
     }
 }
