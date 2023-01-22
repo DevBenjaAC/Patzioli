@@ -5,7 +5,6 @@
 section {
   width: 100%;
   border: solid 1px;
-  background-color: white;
 }
 section h1 {
   font-size: 32px;
@@ -16,4 +15,19 @@ section .cardOne {
   margin: 2rem;
   display: flex;
   flex-direction: column;
+}
+section h3 {
+  margin-left: 1rem;
+}
+section .letter {
+  font-size: 16px;
+  margin: 0px;
+  border: solid 1px;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+section button {
+  border-radius: 10px;
+  margin: 1rem;
 }/*# sourceMappingURL=style.css.map */

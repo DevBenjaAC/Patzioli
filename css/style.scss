@@ -4,7 +4,6 @@
 section{
     width: 100%;
     border: solid 1px;
-    background-color: white;
     
  & h1{
     font-size: 32px;
@@ -15,7 +14,28 @@ section{
     margin: 2rem;
     display: flex;
     flex-direction: column;
+    
+    
+    }
+    & h3{
+        margin-left:1rem
+    }
+    & .letter{
+     font-size: 16px;
+     margin: 0px;
+     border: solid 1px;
+    margin: .5rem;
+    display: flex;
+    justify-content:space-around;
+    }
+    & button{
+        border-radius: 10px;
+        margin: 1rem;
     }
 }
+
+
+  
+
 
 
