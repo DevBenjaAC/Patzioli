@@ -1,17 +1,14 @@
-// version mobile 
-.ctn {
-    background-color: aqua;
+.second-section {
+  display: flex;
+  flex-direction: column;
 }
-
-body {
-    background-color: aquamarine;
+.second-section .main-ctn {
+  width: 80vw;
+  height: auto;
+  align-content: flex-start;
 }
-
-// version desktop 
-@media (min-width: 426px) {
-    body {
-        background-color: red;
-    }
-}
-
+.second-section .content .bttn.shop {
+  border-radius: 0.5rem;
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=style.css.map */

@@ -1,15 +1,39 @@
 //  version mobile 
-.ctn {
-    background-color: aqua;
-}
+.second-section{
+  display: flex;
+  flex-direction: column;
 
-body {
-    background-color: aquamarine;
+  .main-ctn{
+  width: 80vw;
+  height: auto;
+  align-content: flex-start;
+  .header{
+  
+  }
+  .images{
+    .piano{
+    }
+    .shape-back{
+    }
+    .shape-forth{
+    }
+  }
+  }  
+  .content{
+  
+    .stars-block{        
+    }
+    h2, p, li{
+    }
+  .list-sect2{  
+  }
+  .bttn.shop{
+    border-radius: .5rem;
+    background-color: white;
+    color: black;
+  }
+  }
 }
-
 // version desktop 
 @media (min-width: 426px) {
-    body {
-        background-color: red;
-    }
 }
