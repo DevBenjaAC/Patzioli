@@ -1,0 +1,13 @@
+.ctn {
+  background-color: aqua;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+@media (min-width: 426px) {
+  body {
+    background-color: red;
+  }
+}/*# sourceMappingURL=style.css.map */

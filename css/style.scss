@@ -1,0 +1,15 @@
+//  version mobile 
+.ctn {
+    background-color: aqua;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+// version desktop 
+@media (min-width: 426px) {
+    body {
+        background-color: red;
+    }
+}
