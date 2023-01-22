@@ -1,5 +1,6 @@
 //  version mobile 
 $colorbtn: black;
+$colorbody: white;
 
 *{
     margin: 0;
@@ -7,7 +8,34 @@ $colorbtn: black;
     box-sizing: border-box;
 } 
 
+section {
+    background-color: $colorbody;
+    margin: 10px 20px;
+    nav{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .car {
+            margin-left: 14rem ;
+        }
+    }
+    article {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+        h1{
+            padding-top: 25px;
+            font-size: xx-large;
+        }
+    
+    }
+}
 
+button {
+    display: none;
+}
 // version desktop 
 @media (min-width: 426px) {
     body {

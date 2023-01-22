@@ -4,6 +4,34 @@
   box-sizing: border-box;
 }
 
+section {
+  background-color: white;
+  margin: 10px 20px;
+}
+section nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+section nav .car {
+  margin-left: 14rem;
+}
+section article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+section article h1 {
+  padding-top: 25px;
+  font-size: xx-large;
+}
+
+button {
+  display: none;
+}
+
 @media (min-width: 426px) {
   body {
     background-color: red;
