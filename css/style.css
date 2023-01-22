@@ -6,6 +6,10 @@ body {
   background-color: aquamarine;
 }
 
+.fourth-section {
+  background-color: white;
+}
+
 @media (min-width: 426px) {
   body {
     background-color: red;
