@@ -3,11 +3,67 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
 }
 
-.fourth-section {
-  background-color: white;
+.fourth-section .container {
+  width: 100%;
+  height: 870px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.fourth-section .img-bg {
+  position: absolute;
+  width: 100%;
+  height: 870px;
+  background-image: url(../images/darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: -1;
+}
+.fourth-section .title {
+  margin: 45px auto;
+  text-align: center;
+  font-size: 32px;
+}
+.fourth-section .paragraph {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 45px;
+  margin: 0 10px;
+}
+.fourth-section .center {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fourth-section .form .form-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+.fourth-section .form .form-input {
+  margin: 20px 0;
+  border: 1px solid white;
+  width: 370px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.fourth-section .form .more-text-input {
+  height: 148px;
+}
+.fourth-section .form .form-btn {
+  font-size: 20px;
+  width: 370px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
 }
 
 @media (min-width: 426px) {
