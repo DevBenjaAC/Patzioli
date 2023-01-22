@@ -1,13 +1,19 @@
-.ctn {
-  background-color: aqua;
+* {
+  box-sizing: border-box;
 }
 
-body {
-  background-color: aquamarine;
+section {
+  width: 100%;
+  border: solid 1px;
+  background-color: white;
 }
-
-@media (min-width: 426px) {
-  body {
-    background-color: red;
-  }
+section h1 {
+  font-size: 32px;
+  margin: 4rem;
+}
+section .cardOne {
+  border: solid 1px green;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

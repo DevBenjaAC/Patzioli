@@ -1,15 +1,21 @@
-//  version mobile 
-.ctn {
-    background-color: aqua;
+*{
+    box-sizing: border-box;
 }
-
-body {
-    background-color: aquamarine;
-}
-
-// version desktop 
-@media (min-width: 426px) {
-    body {
-        background-color: red;
+section{
+    width: 100%;
+    border: solid 1px;
+    background-color: white;
+    
+ & h1{
+    font-size: 32px;
+    margin: 4rem;
+ }
+ & .cardOne{
+    border: solid 1px green;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
     }
 }
+
+
