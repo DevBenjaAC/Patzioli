@@ -23,12 +23,45 @@ section article {
   align-items: center;
   padding-top: 25px;
 }
+section article p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #858585;
+  letter-spacing: 2px;
+}
 section article h1 {
-  padding-top: 25px;
-  font-size: xx-large;
+  margin: 25px 25px;
+  padding-top: 10px;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+section article .button {
+  display: flex;
+  gap: 1rem;
+  padding-top: 35px;
+}
+section article .button .btn {
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 8px 35px;
+  font-size: 15px;
+  background-color: white;
+}
+section article .button .btn-course {
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
+}
+section article .pian {
+  width: 100%;
+  margin: 3rem;
 }
 
-button {
+.smedia {
+  display: none;
+}
+
+nav button {
   display: none;
 }
 

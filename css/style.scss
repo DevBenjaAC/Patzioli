@@ -1,6 +1,8 @@
 //  version mobile 
 $colorbtn: black;
 $colorbody: white;
+$colorfont: #858585;
+;
 
 *{
     margin: 0;
@@ -25,15 +27,46 @@ section {
         flex-direction: column;
         align-items: center;
         padding-top: 25px;
-        h1{
-            padding-top: 25px;
-            font-size: xx-large;
+        p {
+            margin-top: 30px;
+            font-size: 20px;
+            color: $colorfont;
+            letter-spacing: 2px;
         }
-    
+        h1{ 
+            margin: 25px 25px;
+            padding-top: 10px;
+            font-size: 40px;
+            letter-spacing: 3px;
+        }
+        .button {
+            display: flex;
+            gap: 1rem;
+            padding-top: 35px;
+            .btn {
+                border: 2px solid black;
+                border-radius: 7px;
+                padding: 8px 35px;
+                font-size: 15px;
+                background-color: $colorbody;
+            }
+            .btn-course {
+                background-color: $colorbtn;
+                color: $colorbody;
+                letter-spacing: 2px;
+            }
+        }
+        .pian {
+            width: 100%;
+            margin: 3rem;
+        }
     }
 }
+.smedia {
+    display: none;
+}
 
-button {
+nav button {
     display: none;
 }
 // version desktop 
