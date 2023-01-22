@@ -1,7 +1,27 @@
-.second-section {
-  margin-bottom: 0;
+* {
+  box-sizing: border-box;
 }
-.second-section .main-ctn {
+
+.txt-a {
+  font-family: "Abril Fatface", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.txt-b {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.second-section {
+  margin-bottom: 10vh;
+  height: 870px;
+}
+
+.main-ctn {
   width: 100%;
   height: 870px;
   display: flex;
@@ -9,69 +29,89 @@
   justify-content: space-between;
   position: relative;
 }
-.second-section .main-ctn .bg-piano {
+.main-ctn .bg-piano {
   position: absolute;
-  width: 150%;
-  height: 55%;
+  width: 120%;
+  height: 45%;
   background-image: url(../images/background-image-section2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 0.6;
   z-index: -2;
 }
-.second-section .main-ctn .bg-gradient {
-  background: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgb(255, 255, 255));
+.main-ctn .bg-gradient {
+  background: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgb(255, 255, 255));
   position: absolute;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   z-index: -1;
 }
-.second-section .main-ctn .header {
+.main-ctn .header {
   height: 15vh;
   width: 80vw;
   margin-left: 10vw;
   margin-right: 10vw;
-  box-sizing: content-box;
   position: absolute;
   top: 0;
 }
-.second-section .main-ctn .images {
-  box-sizing: content-box;
+.main-ctn .images-ctn {
   width: 100%;
-  height: auto;
   margin-left: 10vh;
   margin-right: 30vh;
-  position: absolute;
+  position: relative;
   top: 20vh;
 }
-.second-section .main-ctn .images .piano {
+.main-ctn .images-ctn .piano {
   position: absolute;
-  z-index: 10;
+  z-index: 2;
 }
-.second-section .main-ctn .images .shape-back {
+.main-ctn .images-ctn .shape-back {
   position: absolute;
   z-index: 0;
 }
-.second-section .main-ctn .images .shape-front {
+.main-ctn .images-ctn .shape-front {
   position: absolute;
-  z-index: 5;
+  z-index: 1;
 }
-.second-section .main-ctn .content {
+.main-ctn .txt-ctn {
   color: white;
   margin: 0 2rem;
   position: absolute;
-  top: 55vh;
+  top: 58vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
 }
-.second-section .main-ctn .content .bttn-shop {
+.main-ctn .txt-ctn .stars-block {
+  position: absolute;
+  top: 12vh;
+}
+.main-ctn .txt-ctn .list-sect2 {
+  width: 70%;
+  position: absolute;
+  top: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+.main-ctn .txt-ctn .list-sect2 li:first-child {
+  list-style: none;
+}
+.main-ctn .txt-ctn .list-sect2 li {
+  float: left;
+}
+.main-ctn .txt-ctn .bttn-shop {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
   width: 70vw;
   height: 2rem;
   border-radius: 0.5rem;
   background-color: black;
   color: white;
-}
-
-h1 {
-  font-size: 30px;
-  text-align: center;
+  top: 70vh;
 }/*# sourceMappingURL=style.css.map */
