@@ -11,14 +11,13 @@
 
 .txt-b {
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
 }
 
 .second-section {
-  margin-bottom: 10vh;
-  height: 870px;
+  margin-bottom: 0;
 }
 
 .main-ctn {
@@ -32,7 +31,7 @@
 .main-ctn .bg-piano {
   position: absolute;
   width: 100%;
-  height: 40%;
+  height: 100%;
   background-image: url(../images/background-image-section2.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -40,7 +39,7 @@
   z-index: -2;
 }
 .main-ctn .bg-gradient {
-  background: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgb(255, 255, 255));
+  background: linear-gradient(rgb(255, 255, 255), rgba(29, 29, 29, 0.75), rgba(0, 0, 0, 0.75), rgba(29, 29, 29, 0.75), rgb(244, 244, 244));
   position: absolute;
   width: 100%;
   height: 100%;
@@ -48,7 +47,7 @@
   z-index: -1;
 }
 .main-ctn .header {
-  height: 15vh;
+  height: 10vh;
   width: 80vw;
   margin-left: 8vw;
   margin-right: 8vw;
@@ -80,13 +79,13 @@
 .main-ctn .images-ctn .img-group {
   position: absolute;
   z-index: 4;
-  left: 1rem;
+  left: 1.5rem;
 }
 .main-ctn .txt-ctn {
   color: white;
   margin: 0 2rem;
   position: absolute;
-  top: 58vh;
+  top: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -95,7 +94,9 @@
 }
 .main-ctn .txt-ctn .stars-block {
   position: absolute;
-  top: 12vh;
+  top: 11vh;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
 }
 .main-ctn .txt-ctn .list-sect2 {
   width: 70%;
@@ -105,6 +106,8 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
 }
 .main-ctn .txt-ctn .list-sect2 li:first-child {
   list-style: none;
