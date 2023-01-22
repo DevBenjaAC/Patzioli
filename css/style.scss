@@ -61,6 +61,7 @@ body {
         }
 
         .form-input {
+            border: solid 2px white;
             margin: 20px 0;
             width: 370px;
             height: 36px;
@@ -74,7 +75,8 @@ body {
         }
 
         .form-btn {
-            font-size: 20px;
+            padding: 10px;
+            font-size: 16px;
             width: 370px;
             background-color: black;
             color: white;
