@@ -50,7 +50,7 @@ body {
   margin: 0 20px;
 }
 .fourth-section .form .form-input {
-  border: solid 2px white;
+  border: solid 1px white;
   margin: 20px 0;
   width: 370px;
   height: 36px;
@@ -113,7 +113,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.5);
   width: 88px;
