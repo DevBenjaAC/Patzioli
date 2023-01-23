@@ -66,9 +66,12 @@ $Fonts:(
       top: 0;
     }
     .images-ctn {
-      width: 100% auto;
-      margin-left: 7vh;
-      margin-right: 20vh;
+      display: flex;
+      flex-direction: row;
+      width: 60%;
+      height: 20%;
+      margin-left: 7vw;
+      margin-right: 20vw;
       position: relative;
       top: 20vh;
       .piano {
@@ -130,7 +133,6 @@ $Fonts:(
           float:left
         }
       }
-
       .bttn-shop {
         position: absolute;
         font-family: $secondaryFont;
@@ -145,4 +147,62 @@ $Fonts:(
   }
 }
 // version desktop 
-@media (min-width: 426px) {}
+@media (min-width: 1024px){
+
+  .second-section{
+    .main-ctn{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .bg-piano{
+        height: 100%;
+      }
+      .header{
+        width: 30vw;
+        top: 5vh;
+      }
+      .images-ctn{
+        width: 30%;
+        height: 30%;
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+        top: 40vh;
+        left: 15vw;
+          .shape-back{
+            left: 5vw;
+            width: 120%;
+          }
+          .shape-front{
+            width: 120%;
+          }
+          .piano{
+            width: 120%;
+          }
+          .img-group{
+            width: 120%;
+            top: -2rem;
+            left: 3rem;
+
+          }
+
+      }
+      .txt-ctn{
+        width: 40%;
+        top: 28vh;
+        left: 2rem;
+        justify-content: start;;
+        align-items: flex-start;
+        p{
+          text-align: left;
+        }
+        .bttn-shop{
+          width: 70%;
+
+        }
+      }
+      }
+    }
+  }
+
+

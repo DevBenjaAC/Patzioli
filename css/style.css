@@ -55,9 +55,12 @@
   top: 0;
 }
 .main-ctn .images-ctn {
-  width: 100% auto;
-  margin-left: 7vh;
-  margin-right: 20vh;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 20%;
+  margin-left: 7vw;
+  margin-right: 20vw;
   position: relative;
   top: 20vh;
 }
@@ -125,4 +128,56 @@
   background-color: black;
   color: white;
   top: 70vh;
+}
+
+@media (min-width: 1024px) {
+  .second-section .main-ctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .second-section .main-ctn .bg-piano {
+    height: 100%;
+  }
+  .second-section .main-ctn .header {
+    width: 30vw;
+    top: 5vh;
+  }
+  .second-section .main-ctn .images-ctn {
+    width: 30%;
+    height: 30%;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    top: 40vh;
+    left: 15vw;
+  }
+  .second-section .main-ctn .images-ctn .shape-back {
+    left: 5vw;
+    width: 120%;
+  }
+  .second-section .main-ctn .images-ctn .shape-front {
+    width: 120%;
+  }
+  .second-section .main-ctn .images-ctn .piano {
+    width: 120%;
+  }
+  .second-section .main-ctn .images-ctn .img-group {
+    width: 120%;
+    top: -2rem;
+    left: 3rem;
+  }
+  .second-section .main-ctn .txt-ctn {
+    width: 40%;
+    top: 28vh;
+    left: 2rem;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .second-section .main-ctn .txt-ctn p {
+    text-align: left;
+  }
+  .second-section .main-ctn .txt-ctn .bttn-shop {
+    width: 70%;
+  }
 }/*# sourceMappingURL=style.css.map */
