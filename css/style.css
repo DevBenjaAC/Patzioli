@@ -22,14 +22,13 @@ section .cardOne {
 section img {
   margin: 2rem;
 }
-section p {
-  margin: 0rem;
-  color: #DBDBDB;
-}
 section h2 {
   margin-left: 1rem;
   font-family: "Raleway 400";
   font-size: 24px;
+}
+section .none {
+  visibility: hidden;
 }
 section .letter {
   font-size: 16px;
@@ -55,4 +54,42 @@ section .icono {
   height: 120px;
   width: 120;
   margin: 0.5rem 0rem 0rem 1rem;
+}
+section .verMas {
+  margin-left: 8.6rem;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 32px 8px 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    display: inline-block;
+    width: 100vw;
+  }
+  .tituloPrincio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    font-weight: 800px;
+  }
+  section {
+    display: flex;
+  }
+  .cardOne {
+    box-shadow: none;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  p {
+    visibility: hidden;
+  }
 }/*# sourceMappingURL=style.css.map */
