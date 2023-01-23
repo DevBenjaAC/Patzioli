@@ -55,6 +55,9 @@ body {
     }
 
     .form {
+        .container-50 {
+            display: none;
+        }
 
         .form-title {
             font-size: 20px;
@@ -175,8 +178,51 @@ body {
 
 
 // version desktop 
-@media (min-width: 426px) {
+@media (min-width: 1024px) {
     body {
-        background-color: red;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%);
+    }
+
+    .fourth-section {
+        .container {
+            width: 100%;
+            align-items: center;
+        }
+
+        .img-bg {
+            background-image: url(../images/Desktop\ darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
+        }
+
+        .paragraph {
+            width: 500px;
+        }
+
+        .form {
+            .container-50 {
+                display: block;
+            }
+
+            .ctn-50-input {
+                display: none;
+            }
+
+            .inputs-ctn {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 100%;
+                gap: 1rem;
+
+                .form-input-50 {
+                    border: solid 1px white;
+                    margin: 20px 0;
+                    width: 50%;
+                    height: 36px;
+                    border-radius: 5px;
+                    background-color: rgba(0, 0, 0, 0.65);
+                    ;
+                }
+            }
+        }
     }
 }
