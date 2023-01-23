@@ -1,0 +1,140 @@
+.footer {
+  margin-top: -18px;
+  height: 700px;
+  background: linear-gradient(177.96deg, #a8a8a8 1.72%, #dddddd 98.63%);
+  background-size: cover;
+}
+
+.footer .container-logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-pazioli {
+  margin-top: 30px;
+  width: 100px;
+}
+
+.footer-redes {
+  padding: 20px;
+}
+
+.footer-logo {
+  margin: 0 10px;
+}
+
+.footer-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+}
+
+.footer-nosotros--list {
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.footer-contactanos {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Abril Fatface", cursive;
+}
+
+.footer-nosotros-content {
+  margin-top: 15px;
+  text-align: center;
+  list-style: none;
+}
+
+.footer-paragraph {
+  font-family: "Raleway", sans-serif;
+  margin: 10px;
+  font-weight: 400;
+}
+
+.footer-derechos {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.footer-by {
+  margin-top: 25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer__by--DevKoore {
+  color: rgba(0, 0, 0, 0.65);
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer .heart {
+  color: rgb(255, 0, 0);
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer .container-logos {
+    margin-top: 30px;
+    justify-content: stretch;
+    width: 33.33%;
+  }
+
+  .footer-pazioli {
+    width: 200px;
+  }
+
+  .footer-redes {
+    margin-top: 60px;
+  }
+
+  .footer-nosotros {
+    width: 33.33%;
+  }
+
+  .footer-contactanos {
+    margin-top: 110px;
+    justify-content: stretch;
+    width: 33.33%;
+  }
+
+  .footer-derechos {
+    margin: 0;
+    width: 50%;
+    position: relative;
+    transform: translateX(60%) translateY(-260%);
+  }
+
+  .footer-by {
+    margin-top: 0;
+    margin-bottom: 75px;
+    width: 100%;
+  }
+}
