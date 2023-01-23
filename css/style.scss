@@ -98,6 +98,10 @@ body {
     margin-top: 0;
     background: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
 
+    .flags-none {
+        display: none
+    }
+
     .title-flags {
         padding: 10px;
     }
@@ -225,4 +229,30 @@ body {
             }
         }
     }
+
+    .five-section {
+        .ctn-flag {
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .flag {
+                border-radius: 50px;
+            }
+
+            .flag-inverted {
+                border-radius: 50px;
+            }
+        }
+
+        .flags-none {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
+
+
 }

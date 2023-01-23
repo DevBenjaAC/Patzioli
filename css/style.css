@@ -77,6 +77,9 @@ body {
   margin-top: 0;
   background: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
 }
+.five-section .flags-none {
+  display: none;
+}
 .five-section .title-flags {
   padding: 10px;
 }
@@ -174,5 +177,22 @@ body {
     height: 36px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.65);
+  }
+  .five-section .ctn-flag {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .five-section .ctn-flag .flag {
+    border-radius: 50px;
+  }
+  .five-section .ctn-flag .flag-inverted {
+    border-radius: 50px;
+  }
+  .five-section .flags-none {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
