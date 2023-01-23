@@ -24,7 +24,6 @@ $Fonts:(
     text-align: center;
   }
 
-
 .second-section {
   margin-bottom: 0;
   }
@@ -38,20 +37,19 @@ $Fonts:(
     .bg-piano{
       position: absolute;
       width: 100%;
-      height: 100%;
+      height: 40%;
       background-image: url(../images/background-image-section2.svg);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       opacity: .6;
       z-index: -2;
     }
     .bg-gradient{
       background: linear-gradient(
       rgba(255, 255, 255, 1),
-      rgba(29, 29, 29, 0.75),
       rgba(0, 0, 0, 0.75),
-      rgba(29, 29, 29, 0.75),
-      rgb(244, 244, 244));
+      rgba(0, 0, 0, 0.75),
+      rgb(234, 234, 234));
       position: absolute;
       width: 100%;
       height: 100%;
@@ -67,7 +65,7 @@ $Fonts:(
       top: 0;
     }
     .images-ctn {
-      width: 100%;
+      width: 100% auto;
       margin-left: 7vh;
       margin-right: 20vh;
       position: relative;
@@ -97,7 +95,6 @@ $Fonts:(
   
     .txt-ctn {
       color: white;
-      margin: 0 2rem;
       position: absolute;
       top: 50vh;
       display: flex;
@@ -105,6 +102,7 @@ $Fonts:(
       justify-content: space-around;
       text-align: center;
       align-items: center;
+      padding: 0 2rem 0 2rem;
       .stars-block {
         position: absolute;
         top: 11vh;
