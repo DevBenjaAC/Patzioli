@@ -19,6 +19,9 @@ section .cardOne {
   background: #FFFFFF;
   box-shadow: 0px 28px 64px rgba(0, 0, 0, 0.12);
 }
+section p {
+  color: #DBDBDB;
+}
 section img {
   margin: 2rem;
 }
@@ -62,6 +65,11 @@ section .verMas {
   color: white;
   border: none;
   padding: 8px 32px 8px 32px;
+  font-family: "Raleway 400";
+}
+section .ultimoButton {
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 1024px) {
@@ -69,27 +77,50 @@ section .verMas {
     box-sizing: border-box;
     margin: 0;
   }
+  .containerPrincipal {
+    margin: 4rem;
+  }
   body {
     display: inline-block;
-    width: 100vw;
   }
   .tituloPrincio {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 56px;
+    font-size: 120px;
     font-weight: 800px;
+    font-family: "Raleway 400";
   }
   section {
     display: flex;
+    margin: 2rem;
   }
   .cardOne {
     box-shadow: none;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    position: relative;
+    height: 300px;
+    width: 350px;
+    z-index: 1;
   }
   p {
-    visibility: hidden;
+    margin-top: 25%;
+    color: #DBDBDB;
+  }
+  .pianos {
+    position: absolute;
+    z-index: -1;
+    bottom: 65%;
+    left: 2%;
+  }
+  h2 {
+    margin-top: 1.5rem;
+  }
+  .cardSectionTwo {
+    margin-top: 1%;
+  }
+  .ultimoButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
