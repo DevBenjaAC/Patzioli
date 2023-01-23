@@ -4,69 +4,84 @@
   box-sizing: border-box;
 }
 
-section {
-  background-color: white;
-  margin: 10px 20px;
+body {
+  background-color: #FFFFFF;
 }
-section nav {
+body .navContainer {
   width: 100%;
-  height: 100%;
   display: flex;
+  background-color: #FFFFFF;
 }
-section nav .car {
-  margin-left: 14rem;
+body .logo {
+  justify-content: flex-start;
+  margin: 1rem;
+  pad: 1rem;
 }
-section article {
+body nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body .car {
+  justify-content: flex-end;
+}
+body article {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 25px;
+  gap: 2rem;
 }
-section article p {
-  margin-top: 30px;
-  font-size: 20px;
+body article p {
   color: #858585;
-  letter-spacing: 2px;
+  font-size: 20px;
 }
-section article h1 {
-  margin: 25px 25px;
-  padding-top: 10px;
+body article h1 {
   font-size: 40px;
-  letter-spacing: 3px;
 }
-section article .button {
-  display: flex;
-  gap: 1rem;
-  padding-top: 35px;
-}
-section article .button .btn {
+body article .btn {
+  display: inline;
+  margin: 10px;
+  font-weight: bold;
   border: 2px solid black;
   border-radius: 7px;
-  padding: 8px 35px;
-  font-size: 15px;
-  background-color: white;
+  padding: 8px 20px;
 }
-section article .button .btn-course {
+body article .btn-course {
   background-color: black;
-  color: white;
-  letter-spacing: 2px;
-}
-section article .pian {
-  width: 100%;
-  margin: 3rem;
+  color: #FFFFFF;
 }
 
-.smedia {
-  display: none;
+@media only screen and (max-width: 1023px) {
+  .container ul {
+    display: none;
+  }
+  .container-media {
+    display: none;
+  }
 }
-
-nav button {
-  display: none;
-}
-
-@media (min-width: 426px) {
-  body {
-    background-color: red;
+@media only screen and (min-width: 1024px) {
+  .container .btn {
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .container .contact {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border-radius: 8px;
+  }
+  .container-media {
+    position: absolute;
+    right: 1rem;
+    top: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .pian {
+    width: 60%;
   }
 }/*# sourceMappingURL=style.css.map */

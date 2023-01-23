@@ -1,8 +1,7 @@
 //  version mobile 
 $colorbtn: black;
-$colorbody: white;
+$colorbody: #FFFFFF;
 $colorfont: #858585;
-;
 
 *{
     margin: 0;
@@ -10,68 +9,90 @@ $colorfont: #858585;
     box-sizing: border-box;
 } 
 
-section {
+body {
     background-color: $colorbody;
-    margin: 10px 20px;
+    .navContainer {
+        width: 100%;
+        display: flex;
+        background-color: $colorbody;
+    }
+    .logo {
+        justify-content: flex-start;
+        margin: 1rem;
+        pad: 1rem;
+    }
     nav{
         width: 100%;
-        height: 100%;
+        
         display: flex;
-        .car {
-            margin-left: 14rem ;
-        }
+        justify-content: flex-end;
+        align-items: center;
+      
+    }
+    .car {
+        justify-content: flex-end;
     }
     article {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 25px;
-        p {
-            margin-top: 30px;
-            font-size: 20px;
-            color: $colorfont;
-            letter-spacing: 2px;
-        }
-        h1{ 
-            margin: 25px 25px;
-            padding-top: 10px;
-            font-size: 40px;
-            letter-spacing: 3px;
-        }
-        .button {
             display: flex;
-            gap: 1rem;
-            padding-top: 35px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            p {
+                color: $colorfont;
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 40px;
+            }
             .btn {
+                display: inline;
+                margin: 10px;
+                font-weight: bold;
                 border: 2px solid black;
                 border-radius: 7px;
-                padding: 8px 35px;
-                font-size: 15px;
-                background-color: $colorbody;
+                padding: 8px 20px;
             }
             .btn-course {
                 background-color: $colorbtn;
-                color: $colorbody;
-                letter-spacing: 2px;
+                    color: $colorbody;
             }
-        }
-        .pian {
-            width: 100%;
-            margin: 3rem;
-        }
+    }
+    
+}
+@media only screen and (max-width: 1023px){
+    .container ul {
+        display: none;
+    }
+    .container-media {
+        display: none;
     }
 }
-.smedia {
-    display: none;
-}
 
-nav button {
-    display: none;
-}
 // version desktop 
-@media (min-width: 426px) {
-    body {
-        background-color: red;
+@media only screen and (min-width: 1024px){
+    .container {
+        .btn {
+            display: inline;
+            margin: 10px;
+            font-weight: bold ;
+        }
+        .contact {
+            background-color: $colorbtn;
+            color: $colorbody;
+            padding: 5px 20px;
+            border-radius: 8px;
+        }
+    }
+    .container-media {
+        position: absolute;
+        right: 1rem;
+        top: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .pian {
+        width: 60%;
     }
 }
