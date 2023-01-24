@@ -1,12 +1,94 @@
-.ctn {
-  background-color: aqua;
+/*Inicio de la primera seccion*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
 }
+  .container .contact {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border-radius: 8px;
+  }
+  .container-media {
+    position: absolute;
+    right: 1rem;
+    top: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .pian {
+    width: 60%;
+  }
+}
 
+body .navContainer {
+  width: 100%;
+  display: flex;
+  background-color: #FFFFFF;
+}
+body .logo {
+  justify-content: flex-start;
+  margin: 1rem;
+  pad: 1rem;
+}
+body nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body .car {
+  justify-content: flex-end;
+}
+body article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+body article p {
+  color: #858585;
+  font-size: 20px;
+}
+body article h1 {
+  font-size: 40px;
+}
+body article .btn {
+  display: inline;
+  margin: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 8px 20px;
+}
+body article .btn-course {
+  background-color: black;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 1023px) {
+  .container ul {
+    display: none;
+  }
+  .container-media {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .container .btn {
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    }
+ }
+/*final de primera seccion*//*# sourceMappingURL=style.css.map */
+/*Comienza cuarta seccion*/
 .fourth-section {
   margin-bottom: 0;
 }
@@ -195,4 +277,3 @@ body {
     align-items: center;
     justify-content: center;
   }
-}/*# sourceMappingURL=style.css.map */

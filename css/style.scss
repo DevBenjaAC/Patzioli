@@ -1,4 +1,109 @@
+/*Inicio de la primera seccion*/
 //  version mobile 
+
+$colorbtn: black;
+$colorbody: #FFFFFF;
+$colorfont: #858585;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: $colorbody;
+    .navContainer {
+        width: 100%;
+        display: flex;
+        background-color: $colorbody;
+    }
+    .logo {
+        justify-content: flex-start;
+        margin: 1rem;
+        pad: 1rem;
+    }
+    nav{
+        width: 100%;
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      
+    }
+    .car {
+        justify-content: flex-end;
+    }
+    article {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            p {
+                color: $colorfont;
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 40px;
+            }
+            .btn {
+                display: inline;
+                margin: 10px;
+                font-weight: bold;
+                border: 2px solid black;
+                border-radius: 7px;
+                padding: 8px 20px;
+            }
+            .btn-course {
+                background-color: $colorbtn;
+                    color: $colorbody;
+            }
+    }
+    
+}
+@media only screen and (max-width: 1023px){
+    .container ul {
+        display: none;
+    }
+    .container-media {
+        display: none;
+        }
+       }
+        // version desktop 
+@media only screen and (min-width: 1024px){
+    .container {
+        .btn {
+            display: inline;
+            margin: 10px;
+            font-weight: bold ;
+        }
+        .contact {
+            background-color: $colorbtn;
+            color: $colorbody;
+            padding: 5px 20px;
+            border-radius: 8px;
+        }
+    }
+    .container-media {
+        position: absolute;
+        right: 1rem;
+        top: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .pian {
+        width: 60%;
+    }
+}
+/*final de primera seccion*/
+
+
+
+
+
+
 
 // cuarta section -benja
 .ctn {
@@ -12,7 +117,6 @@ body {
 
 .fourth-section {
     margin-bottom: 0;
-
 
     .container {
         width: 100%;
@@ -172,16 +276,12 @@ body {
         .inverted {
             margin: 0 5px 0 15px;
         }
+
     }
 }
 
-// Quinta section -benja
 
 
-
-
-
-// version desktop 
 @media (min-width: 1024px) {
     body {
         background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%);
@@ -229,7 +329,7 @@ body {
             }
         }
     }
-
+// Quinta section -benja
     .five-section {
         .ctn-flag {
             flex-direction: row;
